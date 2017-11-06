@@ -1,0 +1,81 @@
+.banner {
+  height: 400px;
+  background-image: url('../img/bg/Sri-Lanka-light.jpg');
+  background-repeat: no-repeat;
+  background-position: 0% 75%;
+  background-size: cover;
+  display: block;
+}
+.bgc-menu {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  background: linear-gradient(175deg, #573e62, #bd5a6c);
+}
+.navbar-main {
+  min-height: 30px;
+  margin-bottom: 0px;
+  background-color: transparent;
+  padding: 0px;
+  position: relative;
+}
+.navbar-main li {
+  font-family: "OSNOVAPRO.OTF";
+  font-size: 16px;
+  text-decoration: underline;
+  color: #ffffff;
+  padding-left: 25px;
+  background-image: url('../img/flags-48/Sri-Lanka.png');
+  background-repeat: no-repeat;
+  background-size: 5%;
+  background-position: -1% 33%;
+}
+.navbar-main li:hover {
+  cursor: pointer;
+}
+.menu-ar {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Arkhip_font.otf";
+  font-size: 20px;
+  letter-spacing: 1.4px;
+  display: inline-block;
+  vertical-align: top;
+}
+.bt-bonus {
+  margin-left: 20px;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 12px;
+  background-image: url('../img/label/star_white.png');
+  background-size: 10%;
+  background-repeat: no-repeat;
+  background-position: 3% 33%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-radius: 15px;
+  vertical-align: top;
+}
+.bt-bonus:hover {
+  cursor: pointer;
+  color: #ffffff;
+}
+.main-menu {
+  margin-top: 20px;
+}
+.main-menu a {
+  padding: 10px;
+  color: #ffffff;
+  font-family: "OSNOVAPRO-ITALIC";
+  font-size: 16px;
+  margin-right: 10px;
+}
+.main-menu a:hover {
+  color: #d64b74;
+  background-color: #ffffff;
+  border-radius: 3px;
+  text-decoration: none;
+}
