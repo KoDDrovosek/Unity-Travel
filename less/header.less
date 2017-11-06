@@ -1,0 +1,110 @@
+.brand-logo {
+  width: 37px;
+  transition: 0.5s;
+  vertical-align: top;
+}
+@media (min-width: 768px) {
+  .brand-logo {
+    width: 94px;
+  }
+}
+
+.navbar-style {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar-brand-name {
+  font-size: 18pt;
+  color: #e16f75;
+  margin-left: 30px;
+  display: inline-block;
+  text-align: center;
+  font-family:"Arkhip_font";
+  text-transform: uppercase;
+  :first-child{
+    font-size:40px;
+  }
+}
+
+.navbar-top{
+  padding-top:20px;
+  padding-bottom:20px;
+  margin-bottom: 0;
+  box-shadow:0px 0px 20px; 
+  background-color: #ffffff; 
+}
+.info-bar{
+  margin-left:30px;
+}
+
+.info-bar a{
+  font-family:"OSNOVAPRO";
+  font-size:16px;
+  color:#b3b3b3; 
+  margin-left: 10px;
+  
+}
+
+.info-bar a:first-child{
+  color: #808080;
+}
+
+.info-bar a:first-child{
+  padding-left:20px;
+  background-image: url('../img/label/tel_grey.png');
+  background-repeat:no-repeat;
+  background-position:0 33%;
+  background-size:10%;
+}
+
+.info-bar a:last-child{
+  color: #739e00;
+  font-size:18px;
+  padding: 10px;
+  border-width: 1px;
+  border-color: #739e00;
+  border-style:solid;
+  border-radius:3px;
+  box-sizing: border-box;
+}
+
+.info-bar a:last-child:hover{
+  text-decoration:none;
+  background-color:#739e00;
+  color:#FFFFFF;
+} 
+
+.info-bar a:first-child:hover,
+.info-bar a:nth-child(2):hover{
+  background-color:#808080;
+  color:#ffffff;
+}
+
+.under-info-nav{
+  margin-top:40px;
+  a{
+    padding:10px;
+    font-size:16px;
+  }
+  a:first-child{
+    padding-left:15px;
+    background-image:url('../img/label/star_green.png');
+    background-repeat:no-repeat;
+    background-size: 6%;
+    background-position: 1% 50%;
+  }
+  a:nth-child(2){
+     padding-left:15px;
+    background-image:url('../img/label/search.png');
+    background-repeat:no-repeat;
+    background-size: 10%;
+    background-position: 1% 50%;
+  }
+  a:first-child:hover{
+    background-image:url('../img/label/star_red.png');
+  }
+  a:nth-child(2):hover{
+    background-image:url('../img/label/search_hover.png');
+  }
+}
